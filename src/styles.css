@@ -1,0 +1,111 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.lists-sweets {
+  background-color: yellow;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ceabab;
+  padding: 30px;
+}
+.toggle {
+  width: 20%;
+  height: 20%;
+}
+img {
+  padding: 20px;
+  width: 50%;
+  height: 50%;
+}
+p {
+  margin-left: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 300;
+}
+.card-image {
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card-name {
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card-info {
+  padding: 10px;
+}
+
+.card-favorite {
+  width: 25px;
+  cursor: pointer;
+}
+
+.card-contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 30px 25px;
+}
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+.nav-items > li {
+  padding: 10px;
+}
+.nav--logo_text,
+.nav--title {
+  margin: 0;
+}
+.nav--logo_text {
+  margin-right: auto;
+  color: green;
+  font-weight: 700;
+  font-size: 22px;
+}
+.nav--title {
+  color: green;
+  font-weight: bold;
+}
+.nav--icon {
+  height: 30px;
+  margin-right: 7px;
+  width: 40px;
+}
+main {
+  padding: 57px 27px;
+  color: palegoldenrod;
+  background-image: url(./image/heart1.png);
+  background-repeat: no-repeat;
+  background-position: 75% right;
+}
+.main--title {
+  margin: 25px;
+  font-size: 39px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+.main--facts {
+  margin-top: 5px;
+  letter-spacing: -0.05em;
+}
+.main--facts > li {
+  line-height: 19px;
+  font-weight: lighter;
+  font-size: 19px;
+  padding-block: 10px;
+}
+.main--facts > li::marker {
+  font-size: 1.9rem;
+  color: plum;
+}
